@@ -36,7 +36,6 @@ from busdisplay import BusDisplay
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_GC9A01A.git"
 
-import displayio
 
 _INIT_SEQUENCE = bytearray(
     b"\xfe\x00"  # Inter Register Enable1 (FEh)
